@@ -1,0 +1,360 @@
+*{
+    margin:0px;
+}
+body
+{
+    background-color:whitesmoke ;
+    
+}
+p{
+    color:black;
+    font-weight: 650;
+}
+a{
+    font-weight: 650;
+}
+
+div#image-btn
+{
+    display: inline-block;
+    width:70px;
+    height: 70px;
+    background-image: url("icons/menu_btn.png");
+    background-size:70px 70px;
+    
+}
+div#image-btn-closed
+{
+    display: inline-block;
+    display: none;
+    width:70px;
+    height: 70px;
+    background-image: url("icons/close.png");
+    background-size:70px 70px;
+    
+}
+div#logo
+{
+    display: inline-block;
+    width:70px;
+    height:70px;
+    background-image: url("icons/fp_logo.png");
+    background-size:70px 70px;
+    margin-left: 50%;
+}
+div#logo-desktop
+{
+    display: none;
+    width:70px;
+    height:70px;
+    background-image: url("icons/fp_logo.png");
+    background-size:70px 70px;
+    margin-left: 15%;
+}
+div#container
+{
+    position: relative;
+    margin-top:50px;
+    width:100%;
+}
+h
+{
+  color:#0DD17C;
+  font-size:20px; 
+  width:100%;
+  margin-left: 10%;
+  
+  
+  font-family: 'Comfortaa', cursive;
+  
+}
+iframe
+{
+    margin-top: 30px;
+    position: relative;
+    width:90%;
+    height: 300px;
+    margin-left: 5%;
+    margin-right: 5%;
+
+}
+p
+{
+    margin-left: 5%;
+    margin-right: 5%;
+    color:black;
+    font-family: 'Comfortaa', cursive;
+    font-size:18px;
+}
+div#qr
+{
+    background-image: url("icons/qr-code-scan.png");
+    background-size: 250px 250px;
+    margin-top:30px;
+    width:250px;
+    height:250px ;
+    margin-left: 10%;
+    margin-bottom: 60px;
+
+}
+div#checked
+{
+    background-image: url("icons/check.png"); 
+    background-size: 50px 50px;
+    
+    width:50px;
+    height:50px ;
+   
+    
+    display: inline-block;
+}
+div#check
+{
+    display: inline-block;
+    font-size:30px;
+    margin-left: 10%; 
+    color: black; 
+}
+li
+{
+    display: inline;
+    width:50px;
+    height:50px ;
+}
+div#checklist
+{
+    margin:20px;
+}
+
+.grid-container {
+    display: grid;
+    grid-template-columns: auto auto auto;
+   width:80%;
+   max-width: 80%;
+    padding: 10px;
+    margin-left: 10%;
+    margin-right:10%;
+    margin-top:0px;
+  }
+  
+  .grid-item {
+    background-color: #0DD17C;
+    border-style: none;
+    padding: 20px;
+    font-size: 30px;
+    
+    
+    text-align: center;
+  }
+  div#menu
+  {
+      display: none;
+  }
+  div.item
+  {
+    width:100%;
+    text-align: center;
+    font-size: 26px;
+    height:60px;
+    border-bottom-style: solid;
+    border-bottom-color: black;
+    margin-top:30px;
+    color:black;
+    font-family: 'Piazzolla', serif;
+  }
+  
+  a{
+      color:black
+  }
+  
+.vt
+{
+    margin-left:10%;
+    margin-right:10%;
+}
+img{
+    width:300px;
+    margin-left:10%;
+    margin-right:5%;
+    height:600px;
+    display: block;
+    margin-bottom:20px;
+    margin-top:20px;
+}
+
+div.social
+{
+    background-color: white;
+    width:200px;
+    height:80px;
+    border-radius:25px;
+    margin-left:10%;
+    margin-top:20px;
+}
+div#email
+{
+    position: relative;
+    background-image: url("icons/email.png");
+    width:60px;
+    height:60px;
+    background-size: 60px 60px;
+    justify-content:center ;
+    margin-left:70px;
+    top:10px;
+    
+    
+}
+div#twitter
+{
+    background-image: url("icons/twitter\ \(1\).png");
+    width:60px;
+    height:60px;
+    background-size: 60px 60px;
+    justify-content:center ;
+    margin-left:70px;
+    position: relative;
+    top:10px;
+    
+    
+}
+div#instagram
+{
+    background-image: url("icons/instagram\ \(1\).png");
+    width:60px;
+    height:60px;
+    background-size: 60px 60px;
+    justify-content:center ;
+    margin-left:70px;
+    position: relative;
+    top:10px;
+    
+    
+}
+div#end{
+    height:100px;
+    width:100%;
+    margin-top:100px;
+    margin-bottom:20px;
+}
+p#ending
+{
+    color:#0DD17C
+}
+div#menu{
+    display:none;
+}
+div.item-desktop
+{
+    display: inline-block;
+    font-size:20px;
+    color:black;
+    position: relative;
+    top:-30px;
+    margin-left:9%;
+    
+}
+div#menu-desktop
+{
+    display:none;
+    width:70%;
+}
+a.desktop{
+    color:#0DD17C;
+    
+    font-family: 'Asap', sans-serif;
+    
+}
+div#load-frame
+{
+    width:100%;
+    height:4500px;
+    background-color: rgb(21, 73, 58);
+    position: static;;
+    display:block;
+    position:fixed;
+    display:fixed;
+    z-index:1;
+
+
+}
+div#load-frame
+{
+    width:100%;
+    height:4500px;
+    background-color: rgb(21, 73, 58);
+    position: static;;
+    display:block;
+    position:fixed;
+    display:fixed;
+    z-index:1;
+
+
+}
+div#control-frame
+{
+    width:10px;
+    
+}
+div#loading-animation
+{
+    top:150px;
+    position: relative;;
+    width:200px;
+    height:200px;
+    border-radius:50%;
+    background-color: transparent;
+    border-top-style:solid;
+    border-top-color:white;
+    border-width:thick;
+    animation-name:load;
+    animation-duration: 1s;
+    animation-iteration-count: infinite;
+    animation-timing-function: linear;
+    margin-left:25%
+}
+@keyframes load
+{
+    100%
+    {
+        transform:rotate(360deg)
+    }
+}
+div#load-msg
+{
+    position:relative;
+    font-size:20px;
+    color:white;
+    margin-top:200px;
+    margin-left: 20%;
+}
+
+div#parent
+{
+    display: none;
+}
+a#learn
+{
+    color:blue;
+}
+
+#one
+{
+    width:80%;
+}
+#two
+{
+    width:80%;
+}
+#three
+{
+    width:80%;
+}
+#four
+{
+    width:80%;
+}
+#five
+{
+    width:80%;
+
+}
